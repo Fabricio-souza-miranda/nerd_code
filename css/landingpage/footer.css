@@ -1,0 +1,22 @@
+footer {
+   border-top: 2px solid var(--cor-10);
+}
+
+.navegation {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 1rem;
+   margin-bottom: 1rem;
+}
+
+.navegation ul {
+   display: flex;
+   gap: 2rem;
+}
+
+@media (max-width: 670px) {
+   .navegation ul{
+      flex-direction: column;
+      gap: 0.5rem;
+   }
+}

@@ -1,0 +1,38 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1280px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  align-items: center;
+  max-width: max-content;
+  cursor: pointer;
+  background: var(--cor-p2);
+  color: white;
+  border: none;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 0.625rem 1.25rem;
+  position: relative;
+}
+
+.btn img {
+  display: inline-block;
+  padding-left: 0.5rem;
+  transition: .2s ease-out;
+}
+
+.btn:hover img {
+  transform: translateX(8px);
+}
+
+@media (max-width: 400px) {
+  .btn {
+  padding: 0.425rem 0.9rem;
+  }
+}
