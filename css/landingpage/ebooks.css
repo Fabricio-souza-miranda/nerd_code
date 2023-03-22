@@ -69,6 +69,10 @@
    margin: 0px 1rem;
 }
 
+.best-item h3 {
+   text-decoration: line-through;
+}
+
 .best-item .book{
    max-width: 18.25rem;
    position: absolute;
